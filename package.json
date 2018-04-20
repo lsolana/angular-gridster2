@@ -1,5 +1,5 @@
 {
-  "name": "angular-gridster2",
+  "name": "@lsolana/angular-gridster2",
   "version": "5.2.1",
   "license": "MIT",
   "main": "dist/index.js",
@@ -46,6 +46,23 @@
     "dist/*"
   ],
   "dependencies": {},
+  "peerDependencies": {
+    "@angular/animations": "5.2.10",
+    "@angular/cdk": "5.2.5",
+    "@angular/cli": "1.7.4",
+    "@angular/common": "5.2.10",
+    "@angular/compiler": "5.2.10",
+    "@angular/compiler-cli": "5.2.10",
+    "@angular/core": "5.2.10",
+    "@angular/forms": "5.2.10",
+    "@angular/http": "5.2.10",
+    "@angular/language-service": "5.2.10",
+    "@angular/material": "5.2.5",
+    "@angular/platform-browser": "5.2.10",
+    "@angular/platform-browser-dynamic": "5.2.10",
+    "@angular/platform-server": "5.2.10",
+    "@angular/router": "5.2.10"
+  },
   "devDependencies": {
     "@angular/animations": "5.2.10",
     "@angular/cdk": "5.2.5",
