@@ -16,7 +16,8 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "build-demo": "ng build --prod --base-href=./ --build-optimizer",
-    "build-npm": "gulp build && ngc -p tsconfig-lib.json"
+    "build-npm": "gulp build && ngc -p tsconfig-lib.json",
+    "prepublishOnly" : "build npm"
   },
   "homepage": "https://tiberiuzuld.github.io/angular-gridster2/angular",
   "bugs": {
